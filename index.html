@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.BGZyQJ65.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.Blqg7vNn.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.DHULTu9p.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.CqnEcLGe.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BcA8O8_6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CD0h62ac.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.TKuwLfTA.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.AnO2oE3U.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.D3_RMMe5.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.RFOsRNo0.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" data-theme="codeva-theme">
+		<div style="display: contents">  <div class="container gatekeeper svelte-ky0ozn"><label class="label"><input class="input p-4" type="text" placeholder="Type the passcode here..."></label> <button class="btn variant-filled-primary w-full my-4" data-svelte-h="svelte-cqkywr">Submit</button></div> 
+			
+			<script>
+				{
+					__sveltekit_s87yus = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/cs-strands"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.DHULTu9p.js"),
+						import("./_app/immutable/entry/app.TKuwLfTA.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
