@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+body {
+    background: #ffffff;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('/fonts/raleway/Raleway-Medium.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url('/fonts/raleway/Raleway-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Le Havre";
+    src: url('/fonts/le havre/Le Havre Bold.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Le Havre";
+    src: url('/fonts/le havre/Le Havre Black.otf');
+    font-weight: bold;
+}
+
+:root [data-theme='codeva-theme'] {
+    --theme-font-family-base: 'Raleway', sans-serif;
+    --theme-font-family-heading: 'Le Havre', sans-serif;
+    .h1         { @apply my-5 lg:text-6xl }
+    .container  { 
+        @apply mx-auto mt-12;
+    }
+    ul          { 
+        @apply mt-5;
+        li { @apply ml-6 my-3 } 
+    }
+    .emphasis {
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+        @apply text-secondary-500;
+    }
+    .section { @apply my-14 }
+    blockquote { 
+        @apply bg-warning-500 text-surface-500 px-12 py-6;
+        p {
+            /* font-style: italic;
+            font-weight: bold; */
+            @apply text-lg;
+        } 
+    }
+    hr {
+        margin-bottom: 10rem;
+    }
+    .card.is-warning {
+        background: rgba(var(--color-warning-500) / 1);
+        color: rgba(var(--color-surface-500) / 1);
+    }
+}
