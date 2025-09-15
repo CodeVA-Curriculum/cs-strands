@@ -43,6 +43,20 @@
 @use "@picocss/pico/scss/utilities/accessibility"; // -ms-touch-action, aria-*
 @use "@picocss/pico/scss/utilities/reduce-motion"; // prefers-reduced-motion
 
+:root {
+    --pico-font-size: 110%;
+}
+hr {
+    margin-bottom: 4rem;
+}
+
+// Card Component Customizations
+.card > header > h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
 nav{
     margin-bottom: 3rem;
     border-bottom: 2px solid var(--pico-secondary-border);
@@ -63,3 +77,9 @@ section {
 
 .ml-2 { margin-left: 2rem; }
 .mr-2 { margin-right: 2rem; }
+
+.tag {
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: small;
+}

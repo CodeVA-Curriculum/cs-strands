@@ -60,4 +60,8 @@
 		margin-right: 2rem;
 		margin-left: 1rem;
 	}
+	img {
+		height: 75px;
+		width: auto;
+	}
 </style>
