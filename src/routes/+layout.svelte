@@ -17,32 +17,32 @@
 	<ul>
 		<li>
 			<details class="dropdown">
-				<summary role='button'>
+				<summary>
 				Strands
 				</summary>
 				<ul dir="rtl">
-					<li><a href="#">Algorithms & Programming</a></li>
-					<li><a href="#">Computing Systems</a></li>
-					<li><a href="#">Cybersecurity</a></li>
-					<li><a href="#">Data Analysis</a></li>
-					<li><a>Impacts of Computing</a></li>
-					<li><a>Networks & the Internet</a></li>
+					<li><a href="/strands/algorithms-and-programming">Algorithms & Programming</a></li>
+					<li><a href="/strands/computing-systems">Computing Systems</a></li>
+					<li><a href="/strands/cybersecurity">Cybersecurity</a></li>
+					<li><a href="/strands/data-analysis">Data Analysis</a></li>
+					<li><a href="/strands/impacts-of-computing">Impacts of Computing</a></li>
+					<li><a href="/strands/networks-and-the-internet">Networks & the Internet</a></li>
 				</ul>
 			</details>
 		</li>
 		<li>
 			<details class='dropdown'>
-				<summary role='button'>
+				<summary>
 					Tools
 				</summary>
 				<ul dir='rtl'>
-					<li><a>Browse the CS SOLs</a></li>
-					<li><a>CS Pacing Guide Creator</a></li>
-					<li><a>CS Connections Generator</a></li>
+					<li><a href="/tools/sol-browser">Browse the CS SOLs</a></li>
+					<li><a href="/tools/pacing-guide-creator">CS Pacing Guide Creator</a></li>
+					<li><a href="/tools/connections-generator">CS Connections Generator</a></li>
 				</ul>
 			</details>
 		</li>
-		<li><a>About CodeVA</a></li>
+		<li><a href="https://codevirginia.org/about">About CodeVA</a></li>
 	</ul>
 </nav>
 {@render children?.()}
