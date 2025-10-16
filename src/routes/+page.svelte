@@ -14,12 +14,12 @@
                 <img alt="" role="presentation" width='100%' src="https://placecats.com/200/200" />
                 <h2>Algorithms & Programming</h2>
                 <p>The standards organized under the <a href="/algorithms-and-programmming"><i>Algorithms & Programming</i></a> strand have to do with teaching students how to code using <Vocab>unplugged</Vocab> and "<Vocab>plugged</Vocab>" activities. This strand includes standards about <Vocab>computational thinking</Vocab>, using coding tools like <Vocab>Scratch</Vocab> or <Vocab>text-based</Vocab> coding languages, and important coding skills like planning coding projects, <Vocab>debugging</Vocab>, <Vocab>code tracing</Vocab>, and others.</p>
-                <footer>
+                
                     <div role='group'>
                         <a role='button' href="/algorithms-and-programming">Learn More</a>
                         <a href="/tools/connections-generator" role='button' class='secondary'>See Connections</a>
                     </div>
-                </footer>
+                
             </article>
             <article class='card'>
                 <img alt="" role="presentation" width='100%' src="https://placecats.com/200/200" />
