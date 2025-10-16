@@ -91,17 +91,6 @@
 </main>
 
 <style lang='scss'>
-    .quote {
-        background-color: #f2e58f;
-        p { color: black; }
-        blockquote { color: black; }
-    }
-    .quote > blockquote {
-        // font-size: 120%;
-        font-style: italic;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
     $bubble-color: blue;
     .speech-bubble {
         background-color: $bubble-color;

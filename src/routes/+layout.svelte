@@ -17,22 +17,31 @@
 	<ul>
 		<li>
 			<details class="dropdown">
-				<summary role='button'>
+				<summary>
 				Strands
 				</summary>
 				<ul dir="rtl">
+<<<<<<< HEAD
 					<li><a href="/algorithms-and-programming">Algorithms & Programming</a></li>
 					<li><a href="/computing-systems">Computing Systems</a></li>
 					<li><a href="/cybersecurity">Cybersecurity</a></li>
 					<li><a href="/data-analysis">Data Analysis</a></li>
 					<li><a href="/impacts-of-computing">Impacts of Computing</a></li>
 					<li><a href="/networks-and-the-internet">Networks & the Internet</a></li>
+=======
+					<li><a href="/strands/algorithms-and-programming">Algorithms & Programming</a></li>
+					<li><a href="/strands/computing-systems">Computing Systems</a></li>
+					<li><a href="/strands/cybersecurity">Cybersecurity</a></li>
+					<li><a href="/strands/data-analysis">Data Analysis</a></li>
+					<li><a href="/strands/impacts-of-computing">Impacts of Computing</a></li>
+					<li><a href="/strands/networks-and-the-internet">Networks & the Internet</a></li>
+>>>>>>> fbd62bb73db389064c6bdf98b255135349c59564
 				</ul>
 			</details>
 		</li>
 		<li>
 			<details class='dropdown'>
-				<summary role='button'>
+				<summary>
 					Tools
 				</summary>
 				<ul dir='rtl'>
